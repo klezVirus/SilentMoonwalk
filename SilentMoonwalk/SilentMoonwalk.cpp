@@ -18,7 +18,7 @@
 #define CALL_STACK_TYPE 0
 
 #if (CALL_STACK_TYPE == 1)
-#define SPOOF_CALL spoof_call_artificial
+#define SPOOF_CALL spoof_call_synthetic
 #else
 #define SPOOF_CALL spoof_call
 #endif
