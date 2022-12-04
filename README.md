@@ -22,7 +22,7 @@ contributed to the early stages of the PoC, and to the research behind the PoC.
 
 This repository demonstrates a PoC implementation to spoof the call stack when calling arbitrary Windows APIs. 
 
-This attempt was inspired by [this Twitter thread][8], and [this Twitter thread], where sensei [namazso][1] showed and suggested 
+This attempt was inspired by [this Twitter thread][8], and [this Twitter thread][11], where sensei [namazso][1] showed and suggested 
 to extend the stack unwinding approach with a ROP chain to both desynchronize the unwinding from real control flow and restore 
 the original stack afterwards.
 
@@ -149,4 +149,5 @@ It's worth mentioning previous work done on this topic, which built the foundati
 [8]: https://twitter.com/_Kudaes_/status/1594753842310434816
 [9]: https://twitter.com/KlezVirus
 [10]: https://github.com/waldo-irc/YouMayPasser
+[11]: https://twitter.com/namazso/status/1442314742488567808
 
