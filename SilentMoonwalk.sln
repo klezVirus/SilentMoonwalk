@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SilentMoonwalk", "SilentMoonwalk\SilentMoonwalk.vcxproj", "{E11DC25D-E96D-495D-8968-1BA09C95B673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25E04E93-D4AF-4A27-8568-7B0CBE3AF0A2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnwindInspector", "UnwindInspector\UnwindInspector.vcxproj", "{E86ABDAA-444C-409A-B466-9E034E859C80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Debug|x64.ActiveCfg = Debug|x64
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Debug|x64.Build.0 = Debug|x64
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Debug|x86.ActiveCfg = Debug|Win32
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Debug|x86.Build.0 = Debug|Win32
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Release|x64.ActiveCfg = Release|x64
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Release|x64.Build.0 = Release|x64
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Release|x86.ActiveCfg = Release|Win32
+		{E11DC25D-E96D-495D-8968-1BA09C95B673}.Release|x86.Build.0 = Release|Win32
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Debug|x64.ActiveCfg = Debug|x64
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Debug|x64.Build.0 = Debug|x64
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Debug|x86.ActiveCfg = Debug|Win32
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Debug|x86.Build.0 = Debug|Win32
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x64.ActiveCfg = Release|x64
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x64.Build.0 = Release|x64
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x86.ActiveCfg = Release|Win32
+		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54F8980C-A52E-4F1D-B737-D212E6F548AF}
+	EndGlobalSection
+EndGlobal
