@@ -50,9 +50,9 @@ even without a suitable frame which unwinds calling POP RBP, but:
 
 The result of the _synthetic spoof can be observed in the image below:
 
-![Windows 10 Call Stack - Apparently Legit, non unwinding - getchar](./assets/img/stack_win10_getchar.png)
+![Windows 10 Call Stack - Apparently Legit, non unwoundable - getchar](./assets/img/stack_win10_getchar.png)
 
-*Figure 1: Windows 10 - Valid call stack whereby the EXE module was completely removed (calling no parameters function getchar)*
+*Figure 1: Windows 10 - Apparently Legit, non unwoundable call stack whereby the EXE module was completely removed (calling no parameters function getchar)*
 
 *Note: This operation mode is disabled by default. To enable this mode, change the CALLSTACK_TYPE to 1*
 
@@ -60,9 +60,9 @@ The result of the _synthetic spoof can be observed in the image below:
 
 This mode is the right solution to the above problem, whereby the non-suitable frame is simply replaced by another, suitable one.
 
-![Windows 10 Call Stack - Legit, unwinding - MessageBoxExA](./assets/img/stack_win10_msgbox_ex.png)
+![Windows 10 Call Stack - Legit, unwoundable - MessageBoxExA](./assets/img/stack_win10_msgbox_ex.png)
 
-*Figure 2: Windows 10 - Valid call stack whereby the EXE module was completely removed (calling 4 parameters function MessageBoxA)*
+*Figure 2: Windows 10 - Legit, unwoundable call stack whereby the EXE module was completely removed (calling 4 parameters function MessageBoxA)*
 
 ## Utility
 
