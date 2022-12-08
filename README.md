@@ -4,7 +4,7 @@ PoC Implementation of a fully dynamic call stack spoofer
 
 ## TL;DR
 
-SilentMoonwalk is a PoC implementation of a true call stack spoofer, implementing a technique to remove the original caller from the call stack, 
+SilentMoonwalk is a PoC implementation of a fully dynamic call stack spoofer, implementing a technique to remove the original caller from the call stack, 
 using ROP to desynchronize unwinding from control flow.
 
 ## Authors
