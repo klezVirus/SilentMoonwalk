@@ -1,6 +1,6 @@
 ﻿# SilentMoonwalk
 
-PoC Implementation of a true call stack spoofer
+PoC Implementation of a fully dynamic call stack spoofer
 
 ## TL;DR
 
@@ -135,6 +135,7 @@ It's worth mentioning previous work done on this topic, which built the foundati
 ## Notes
 
 * [SYNTHETIC STACK ONLY]: For a limitation in the way I'm locating the gadgets, the maximum number of arguments is 8 for now (it is TRIVIAL to modify and add more params, but I couldn't bother).
+* [DSESYNC STACK ONLY]: For a limitation in how I'm setting up the spoofer, the maximum number of supported arguments is 4 for now.
 * Testing on this one was pretty limited. There might be exceptions I'm not aware of at the moment.
 * Unwinding involving 128-bit registers was no tested.
 * Calling functions that use 128-bit registers is not officially supported.
