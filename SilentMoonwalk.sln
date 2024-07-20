@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnwindInspector", "UnwindInspector\UnwindInspector.vcxproj", "{E86ABDAA-444C-409A-B466-9E034E859C80}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eclipse", "Eclipse\Eclipse.vcxproj", "{410C4F61-E89F-463D-96B3-82F4DCD7F134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x64.Build.0 = Release|x64
 		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x86.ActiveCfg = Release|Win32
 		{E86ABDAA-444C-409A-B466-9E034E859C80}.Release|x86.Build.0 = Release|Win32
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Debug|x64.ActiveCfg = Debug|x64
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Debug|x64.Build.0 = Debug|x64
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Debug|x86.ActiveCfg = Debug|Win32
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Debug|x86.Build.0 = Debug|Win32
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Release|x64.ActiveCfg = Release|x64
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Release|x64.Build.0 = Release|x64
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Release|x86.ActiveCfg = Release|Win32
+		{410C4F61-E89F-463D-96B3-82F4DCD7F134}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
